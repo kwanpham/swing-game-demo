@@ -28,19 +28,19 @@ public class GameCanvas extends JPanel {
         this.graphics = backBuffered.getGraphics();
 
         try {
-            this.starImage = ImageIO.read(new File("C:\\Users\\USER\\Documents\\vch_trx\\demo-spring-swing\\src\\main\\resources\\images\\star.png"));
+            this.starImage = ImageIO.read(new File("images/star.png"));
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         try {
-            this.enemyImage = ImageIO.read(new File("C:\\Users\\USER\\Documents\\vch_trx\\demo-spring-swing\\src\\main\\resources\\images\\circle.png"));
+            this.enemyImage = ImageIO.read(new File("images/circle.png"));
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         try {
-            this.playerImage = ImageIO.read(new File("C:\\Users\\USER\\Documents\\vch_trx\\demo-spring-swing\\src\\main\\resources\\images\\circle.png"));
+            this.playerImage = ImageIO.read(new File("images/circle.png"));
         } catch (Exception e) {
             e.printStackTrace();
         }
